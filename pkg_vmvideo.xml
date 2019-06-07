@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.7" method="upgrade">
+    <name>vmvideo</name>
+    <packagename>vmvideo</packagename>
+    <author>Aleksey A. Morozov</author>
+    <authorEmail>alekvolsk@yandex.ru</authorEmail>
+    <authorUrl>https://alekvolsk.pw</authorUrl>
+    <copyright>© 2019 Aleksey A. Morozov. All right reserved.</copyright>
+    <license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
+    <creationDate>June 2019</creationDate>
+    <packager>Aleksey A. Morozov</packager>
+    <packagerurl>https://alekvolsk.pw</packagerurl>
+    <version>1.0.0</version>
+    <description><![CDATA[Content plugin for video output from Vimeo.]]></description>
+    <files>
+        <folder type="plugin" id="vmvideo" group="content" method="upgrade" client="site">plg_content_vmvideo</folder>
+        <folder type="plugin" id="vmvideobtn" group="editors-xtd" method="upgrade" client="site">plg_editors-xtd_vmvideobtn</folder>
+    </files>
+</extension>
