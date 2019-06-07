@@ -22,7 +22,7 @@ For example:
 {vmvideo https://vimeo.com/131191237|16:9|The New JavaScript: ES6 - Rob Eisenberg}
 ```
 
-Some parts of the shortcode may be missing, but their order must be preserved: address|ratio|header.
+Some parts of the shortcode may be missing, but their order must be preserved: address|ratio|title.
 
 Allowable aspect ratios are: `4:3`, `16:10`, `16:9`, `18:9` (a minus sign is allowed to be substituted for a colon). Incorrect aspect ratio will be part of the heading following it.
 
