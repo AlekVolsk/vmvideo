@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             for (key in params) {
                 query.push(encodeURIComponent(key) + '=' + encodeURIComponent(params[key]));
             }
-            target.innerHTML = '<embed src="http://player.vimeo.com/video/' + target.dataset.videosrc + '?' + query.join('&') + '" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" allowfullscreen style="border:0;"></embed>';
+            target.innerHTML = '<embed src="//player.vimeo.com/video/' + target.dataset.videosrc + '?' + query.join('&') + '" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" allowfullscreen style="border:0;"></embed>';
         });
     }
 });

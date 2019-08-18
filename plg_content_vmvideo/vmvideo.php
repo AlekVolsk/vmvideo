@@ -11,7 +11,7 @@ use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\FileSystem\Path;
-use Joomla\CMS\FileSystem\Folder;
+//use Joomla\CMS\FileSystem\Folder;
 
 class plgContentVmvideo extends CMSPlugin
 {
