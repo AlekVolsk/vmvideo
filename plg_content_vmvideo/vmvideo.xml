@@ -6,8 +6,8 @@
     <authorUrl>https://alekvolsk.pw</authorUrl>
     <copyright>© 2019 Aleksey A. Morozov. All right reserved.</copyright>
     <license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
-    <creationDate>August 2019</creationDate>
-    <version>1.0.2</version>
+    <creationDate>September 2019</creationDate>
+    <version>1.0.3</version>
     <description>PLG_VMVIDEO_DESC</description>
     <scriptfile>script.php</scriptfile>
     <files>
@@ -50,7 +50,7 @@
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>
-                <field name="pcolor" type="color" label="PLG_VMVIDEO_EMPTYIMG" class="input-xlarge" default="#00ADEF" />
+                <field name="pcolor" type="color" label="PLG_VMVIDEO_COLOR" class="input-xlarge" default="#00ADEF" />
                 <field name="emptyimg" type="media" label="PLG_VMVIDEO_EMPTYIMG" description="PLG_VMVIDEO_EMPTYIMG_DESC" class="input-xlarge" default="plugins/content/vmvideo/assets/empty.png" />
             </fieldset>
         </fields>

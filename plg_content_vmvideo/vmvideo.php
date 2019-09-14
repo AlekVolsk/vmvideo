@@ -60,7 +60,6 @@ class plgContentVmvideo extends CMSPlugin
         }
 
         $videoParams = [];
-        $videoParams['fun'] = 0;
         $videoParams['autoplay'] = 1;
         $videoParams['title'] = (int)$this->params->get('showtitle');
         $videoParams['byline'] = (int)$this->params->get('showowner');
@@ -95,9 +94,8 @@ class plgContentVmvideo extends CMSPlugin
                 $id = $match[1];
                 $cachedImage = $cachFolder . $id . '.jpg';
 
-                $vimeoRes = @file_get_contents('http://vimeo.com/api/v2/video/' . $id . '.json');
-
                 if (!file_exists($cachedImage)) {
+                    $vimeoRes = @file_get_contents('http://vimeo.com/api/v2/video/' . $id . '.json');
                     if ((bool)$vimeoRes !== false) {
                         $vimeoRes = json_decode($vimeoRes, true);
                         if (!$title) {

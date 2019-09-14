@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extension type="package" version="3.7" method="upgrade">
-    <name>Vimeo video</name>
+    <name>PKG_VMVIDEO</name>
     <packagename>vmvideo</packagename>
     <author>Aleksey A. Morozov</author>
     <authorEmail>alekvolsk@yandex.ru</authorEmail>
     <authorUrl>https://alekvolsk.pw</authorUrl>
     <copyright>© 2019 Aleksey A. Morozov. All right reserved.</copyright>
     <license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
-    <creationDate>August 2019</creationDate>
+    <creationDate>September 2019</creationDate>
     <packager>Aleksey A. Morozov</packager>
     <packagerurl>https://alekvolsk.pw</packagerurl>
-    <version>1.0.2</version>
-    <description><![CDATA[Content plugin for video output from Vimeo.]]></description>
+    <version>1.0.3</version>
+    <description>PKG_VMVIDEO_DESC</description>
+    <php_minimum>5.6</php_minimum>
+    <scriptfile>pkg_script.php</scriptfile>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.pkg_vmvideo.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.pkg_vmvideo.sys.ini</language>
+    </languages>
     <files>
         <folder type="plugin" id="vmvideo" group="content" method="upgrade" client="site">plg_content_vmvideo</folder>
         <folder type="plugin" id="vmvideobtn" group="editors-xtd" method="upgrade" client="site">plg_editors-xtd_vmvideobtn</folder>
     </files>
+    <updateservers>
+        <server type="extension" priority="2" name="PKG_VMVIDEO"><![CDATA[https://joomla-update.org/extensions/vmvideo/vmvideo_update.xml]]></server>
+    </updateservers>
 </extension>
