@@ -10,7 +10,7 @@
     <creationDate>September 2019</creationDate>
     <packager>Aleksey A. Morozov</packager>
     <packagerurl>https://alekvolsk.pw</packagerurl>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <description>PKG_VMVIDEO_DESC</description>
     <php_minimum>5.6</php_minimum>
     <scriptfile>pkg_script.php</scriptfile>
