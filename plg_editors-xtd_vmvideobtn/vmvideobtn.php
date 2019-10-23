@@ -11,7 +11,9 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Factory;
 use Joomla\CMS\Object\CMSObject;
 use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\CMS\Language\Text;
+use Joomla\CMS\Filesystem\Path;
 
 class PlgEditorsXtdVmvideobtn extends CMSPlugin
 {

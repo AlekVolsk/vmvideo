@@ -22,7 +22,7 @@ $modal_label_title = Text::_('PLG_EDITORS-XTD_VMVIDEOBTN_LABEL_TITLE');
 
 ?>
 <script>
-$html = '\
+$vmvideo_html = '\
 <div id="vmvideo-modal" class="modal hide fade" role="dialog" aria-hidden="true">\
     <div class="modal-header">\
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>\
@@ -69,7 +69,7 @@ $html = '\
 
 jQuery(document).ready(function()
 {
-	jQuery('body').append('$html');
+	jQuery('body').append($vmvideo_html);
 });
 function urlcheckvmvideo(url)
 {

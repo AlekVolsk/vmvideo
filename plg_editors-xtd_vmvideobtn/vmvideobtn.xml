@@ -6,12 +6,13 @@
     <authorUrl>https://alekvolsk.pw</authorUrl>
     <copyright>© 2019 Aleksey A. Morozov. All right reserved.</copyright>
     <license>GNU General Public License version 3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
-    <creationDate>June 2019</creationDate>
-    <version>1.0.2</version>
+    <creationDate>Oktober 2019</creationDate>
+    <version>1.0.3</version>
     <description>PLG_EDITORS-XTD_VMVIDEOBTN_XML_DESCRIPTION</description>
     <scriptfile>script.php</scriptfile>
     <files>
         <filename plugin="vmvideobtn">vmvideobtn.php</filename>
+        <folder>tmpl</folder>
     </files>
     <languages folder="language">
         <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_vmvideobtn.ini</language>
